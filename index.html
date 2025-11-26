@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="stylesheet.css">
+ </head>
+<body>
+<main class="todo-card">
+  <h1 class="todo-title">To-Do List</h1>
+  <form class="todo-form" id="todo-form">
+    <input class="todo-input" id="task-input" type="text" placeholder="Add a new todo..." autocomplete="off" />
+    <button class="todo-btn" type="submit">Add</button>
+  </form>
+  <ul class="todo-list" id="task-list"></ul>
+  <p id="no-tasks-msg">No tasks yet!</p>
+  <button id="clear-btn" style="display:none;">Clear All Tasks</button>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
